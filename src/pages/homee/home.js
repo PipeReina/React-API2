@@ -9,7 +9,7 @@ import Footer from '../../components/footer/footer.js';
 
 
 function Home() {
-  return (
+  return(
     <div>
     <Nav />
     <Pienav />
@@ -19,7 +19,6 @@ function Home() {
     <CarstUsu />
     <Footer />
     </div>
-    
   );
 }
 
