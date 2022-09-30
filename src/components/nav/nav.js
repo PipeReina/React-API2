@@ -1,5 +1,4 @@
 import logo from './Hotelia horizontal blanco.svg';
-import link from '../../pages/login-vis/login-vis.js';
 
 
 function Nav() {
@@ -15,7 +14,7 @@ function Nav() {
           <a href="ubicanos.html" class="item">Ubícanos</a>
           <a href="opiniones.html" class="item">Opiniones</a>
           <hr class="menu-hr" noshade=""></hr>
-          <a href={link} class="item"><button class="navbar-button"><i class="fi fi-sr-user"></i> Iniciar Sesión</button></a>
+          <a href="/Login" class="item"><button class="navbar-button"><i class="fi fi-sr-user"></i> Iniciar Sesión</button></a>
       </div></div>
     </nav>
     );

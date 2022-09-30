@@ -11,7 +11,7 @@ function CuaLogin() {
         <div class="loginmedio">
             <form>
             Usuario<br />
-            <input type="text" name="username" /><br /><br />
+            <input type="text" name="username" /><br />
             Contraseña<br />
             <input type="password" name="psw" />
           </form></div>

@@ -6,12 +6,17 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './pages/homee/home'
+import Login from './pages/login-vis/login-vis'
 // import your route components too
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>,
+  },
+  {
+    path: "/Login",
+    element: <Login/>,
   },
 ]);
 
