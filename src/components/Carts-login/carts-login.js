@@ -5,7 +5,7 @@ function CuaLogin() {
     <div class="bodylogin">
         <img src={img} class="fondologin" />
         <div class="login">
-            <a href="index.html"><div class="logoNegro"></div></a>
+            <a href="/"><div class="logoNegro"></div></a>
         <div class="blanco"></div>
         <div class="usulogin"></div>
         <div class="loginmedio">
