@@ -1,13 +1,15 @@
-
-import img from './foto.jpg'
+import Carts from '../carts-usuarios'
+import img01 from './foto.jpg'
 
 function Carst() {
     return (
     <>
             <div class="perso">
             <div class="superior">
-                <div class="divNu"><img src={img} class="imgNu"/></div>
-                <div class="nombreNu"><div><p>Diego Rodriguez</p></div>
+                <Carts 
+                nombre={'Juan Rodriguez'}
+                img={img01}
+                />
                 <div class="estrellita">
                 <form>
                     <p class="clasificacion">
@@ -24,10 +26,11 @@ function Carst() {
                     </p>
                   </form></div>
             </div>
-            </div>
-            <div class="lo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas tempora rem architecto, consequatur earum nobis ut ipsa expedita itaque.</div>
+            <Carts 
+            reseña={'Buena'}
+            />
         </div>
-    </>
+      </>
     );
   }
 

@@ -35,7 +35,7 @@
   .blanco{
       height: 133px;
     width: 366px;
-    background-image: url(./loginBlanco1.png);
+    background-image: url(../login-vis/loginBlanco1.png);
     background-size: cover;
     border-radius: 5px;
   

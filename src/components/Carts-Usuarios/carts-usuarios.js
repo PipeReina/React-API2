@@ -1,11 +1,10 @@
-import Carts from './Carts/carts.js'
 
-function CarstUsu() {
+function CarstUsu({nombre,img,reseña}) {
     return (
     <div class="person">
-        <Carts />
-        <Carts />
-        <Carts />
+        <img src={img} class="imgNu"/>
+        <div class="nombreNu"><div><p>Diego Rodriguez</p></div></div>
+        <div class="lo"></div>
     </div>
     );
   }

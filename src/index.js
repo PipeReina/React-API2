@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Home from './pages/homee/home'
 import Login from './pages/login-vis/login-vis'
+import Dashboard from './pages/dashboard/Dashboard'
+import Regis from './pages/registrar/Registrar'
 // import your route components too
 
 const router = createBrowserRouter([
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
   {
     path: "/Login",
     element: <Login/>,
+  },
+  {
+    path: "/Dashboard",
+    element: <Dashboard/>,
+  },
+  {
+    path: "/Regis",
+    element: <Regis/>,
   },
 ]);
 
